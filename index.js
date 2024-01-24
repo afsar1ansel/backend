@@ -13,9 +13,9 @@ app.use(express.json())
 app.use("/user",userRoute)
 app.use("/blog",blogRoutes)
 
-// app.get('/',(req,res)=>{
-//     res.send("Home")
-// })
+ app.get('/',(req,res)=>{
+     res.send("Home")
+ })
 
 
 
